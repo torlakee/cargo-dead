@@ -1,0 +1,29 @@
+# Rust build artifacts
+/target/
+**/target/
+
+# Executables and binaries
+*.exe
+*.out
+*.dll
+*.dylib
+*.so
+
+# Backup & temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+*.old
+
+# IDEs & editors
+.vscode/
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# Cargo specific
+**/Cargo.lock
+.cargo/

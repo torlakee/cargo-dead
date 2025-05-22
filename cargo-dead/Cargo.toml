@@ -1,0 +1,16 @@
+[package]
+name = "cargo-dead"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "cargo-dead"
+path = "src/main.rs"
+
+[dependencies]
+syn = { version = "2", features = ["visit"] }
+walkdir = "2"
+cargo_metadata = "0.18"
+anyhow = "1"
+toml_edit = "0.21"
+clap = { version = "4", features = ["derive"] }
